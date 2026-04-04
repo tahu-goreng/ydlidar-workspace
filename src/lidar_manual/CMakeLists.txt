@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+project(lidar_manual)
+set(CMAKE_CXX_STANDARD 14)
+find_path(YDLIDAR_INCLUDE_DIR CYdLidar.h PATHS /usr/local/include/src)
+include_directories(${YDLIDAR_INCLUDE_DIR})
+link_directories(/usr/local/lib)
+add_executable(test_manual test_manual.cpp)
+target_link_libraries(test_manual ydlidar_sdk pthread)

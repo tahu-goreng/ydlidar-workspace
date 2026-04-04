@@ -1,0 +1,38 @@
+[1.897s] Invoking command in '/home/waesco704/ydlidar_ws/src/my_robot': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/waesco704/ydlidar_ws/build/my_robot/build install --record /home/waesco704/ydlidar_ws/build/my_robot/install.log --single-version-externally-managed install_data
+[2.445s] running egg_info
+[2.478s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[2.480s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.480s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[2.481s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[2.481s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[2.557s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.560s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.561s] running build
+[2.561s] running build_py
+[2.562s] copying my_robot/reactive_avoidance.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+[2.562s] copying my_robot/serial_bridge.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+[2.563s] copying my_robot/cmd_vel_bridge.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+[2.563s] copying my_robot/__init__.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+[2.564s] copying my_robot/lidar_processor.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+[2.565s] running install
+[2.573s] running install_lib
+[2.610s] running install_data
+[2.612s] copying resource/my_robot -> /home/waesco704/ydlidar_ws/install/my_robot/share/ament_index/resource_index/packages
+[2.613s] copying package.xml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot
+[2.613s] copying launch/bringup_slam.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+[2.614s] copying launch/bringup_localization.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+[2.614s] copying launch/bringup_navigation.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+[2.615s] copying config/slam_params_online_async.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+[2.615s] copying config/localization_params.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+[2.616s] copying config/nav2_params.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+[2.616s] copying config/ydlidar_slam_view.rviz -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+[2.617s] copying config/navigation_view.rviz -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+[2.617s] running install_egg_info
+[2.654s] removing '/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.655s] Copying ../../build/my_robot/my_robot.egg-info to /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[2.657s] running install_scripts
+[2.940s] Installing cmd_vel_bridge script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+[2.940s] Installing reactive_avoidance script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+[2.941s] Installing serial_bridge script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+[2.941s] writing list of installed files to '/home/waesco704/ydlidar_ws/build/my_robot/install.log'
+[3.016s] Invoked command in '/home/waesco704/ydlidar_ws/src/my_robot' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/waesco704/ydlidar_ws/build/my_robot/build install --record /home/waesco704/ydlidar_ws/build/my_robot/install.log --single-version-externally-managed install_data

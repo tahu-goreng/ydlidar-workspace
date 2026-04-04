@@ -1,0 +1,11 @@
+prefix=/home/waesco704/ydlidar_ws/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.2.19
+Cflags:   -I/home/waesco704/ydlidar_ws/install/ydlidar_sdk/include/src -I/home/waesco704/ydlidar_ws/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

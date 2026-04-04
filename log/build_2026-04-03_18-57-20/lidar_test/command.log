@@ -1,0 +1,2 @@
+Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_test': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8
+Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_test' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8

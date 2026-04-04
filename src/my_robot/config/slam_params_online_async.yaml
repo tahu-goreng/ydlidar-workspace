@@ -1,0 +1,73 @@
+slam_toolbox:
+  ros__parameters:
+
+    # =========================
+    # MODE
+    # =========================
+    use_sim_time: false
+    mode: mapping        # <<< WAJIB: mapping (online async)
+
+    # =========================
+    # FRAME & TOPIC
+    # =========================
+    map_frame: map
+    odom_frame: odom
+    base_frame: base_link
+    scan_topic: /scan
+    subscribe_scan_qos: sensor_data
+
+    # =========================
+    # MOTION FILTER
+    # =========================
+    minimum_travel_distance: 0.05      # m
+    minimum_travel_heading: 0.05       # rad
+
+    # =========================
+    # TF PUBLISHING
+    # =========================
+    transform_publish_period: 0.05     # 20 Hz
+    transform_timeout: 0.5
+
+    # =========================
+    # LASER PARAMETERS
+    # =========================
+    resolution: 0.05
+    max_laser_range: 10.0
+    min_laser_range: 0.05
+
+    throttle_scans: 2                  # proses 1 dari 2 scan
+    queue_size: 50                     # tahan burst scan
+
+    # =========================
+    # SCAN MATCHING
+    # =========================
+    use_scan_matching: true
+    use_imu: false
+
+    # =========================
+    # POSE GRAPH / OPTIMIZATION
+    # =========================
+    solve_in_pose_graph: true
+    optimization_frequency: 1.0
+
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+
+    # =========================
+    # LOOP CLOSURE
+    # =========================
+    use_loop_closure: true
+    loop_search_maximum_distance: 8.0
+    loop_search_num_submaps: 5
+
+    # =========================
+    # MAP UPDATE
+    # =========================
+    map_update_interval: 1.0
+
+    # =========================
+    # STABILITY / DEBUG
+    # =========================
+    enable_interactive_mode: false
+    debug_logging: false
+

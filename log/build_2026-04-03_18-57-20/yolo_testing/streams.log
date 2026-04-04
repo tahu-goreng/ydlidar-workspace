@@ -1,0 +1,32 @@
+[2.381s] Invoking command in '/home/waesco704/ydlidar_ws/src/yolo_testing': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data
+[2.944s] running egg_info
+[2.979s] creating ../../build/yolo_testing/yolo_testing.egg-info
+[2.979s] writing ../../build/yolo_testing/yolo_testing.egg-info/PKG-INFO
+[2.980s] writing dependency_links to ../../build/yolo_testing/yolo_testing.egg-info/dependency_links.txt
+[2.981s] writing requirements to ../../build/yolo_testing/yolo_testing.egg-info/requires.txt
+[2.981s] writing top-level names to ../../build/yolo_testing/yolo_testing.egg-info/top_level.txt
+[2.982s] writing manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'
+[3.055s] reading manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'
+[3.055s] adding license file 'LICENSE'
+[3.057s] writing manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'
+[3.057s] running build
+[3.058s] running build_py
+[3.058s] creating /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.058s] copying yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.059s] copying yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.060s] running install
+[3.068s] running install_lib
+[3.104s] creating /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.104s] copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.104s] copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.106s] byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/__init__.py to __init__.cpython-310.pyc
+[3.106s] byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/yolo_publisherNode.py to yolo_publisherNode.cpython-310.pyc
+[3.109s] running install_data
+[3.110s] creating /home/waesco704/ydlidar_ws/install/yolo_testing/share/ament_index/resource_index/packages
+[3.110s] copying resource/yolo_testing -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/ament_index/resource_index/packages
+[3.111s] copying package.xml -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing
+[3.111s] running install_egg_info
+[3.149s] Copying ../../build/yolo_testing/yolo_testing.egg-info to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing-0.0.0-py3.10.egg-info
+[3.150s] running install_scripts
+[3.442s] writing list of installed files to '/home/waesco704/ydlidar_ws/build/yolo_testing/install.log'
+[3.535s] Invoked command in '/home/waesco704/ydlidar_ws/src/yolo_testing' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data

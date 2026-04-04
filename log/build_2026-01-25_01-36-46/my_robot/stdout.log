@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/my_robot/my_robot.egg-info
+writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+copying my_robot/reactive_avoidance.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+copying my_robot/serial_bridge.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+copying my_robot/cmd_vel_bridge.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+copying my_robot/__init__.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+copying my_robot/lidar_processor.py -> /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot
+running install
+running install_lib
+creating /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot/reactive_avoidance.py -> /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot/serial_bridge.py -> /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot/cmd_vel_bridge.py -> /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/waesco704/ydlidar_ws/build/my_robot/build/lib/my_robot/lidar_processor.py -> /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+byte-compiling /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot/reactive_avoidance.py to reactive_avoidance.cpython-310.pyc
+byte-compiling /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot/serial_bridge.py to serial_bridge.cpython-310.pyc
+byte-compiling /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot/cmd_vel_bridge.py to cmd_vel_bridge.cpython-310.pyc
+byte-compiling /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot/lidar_processor.py to lidar_processor.cpython-310.pyc
+running install_data
+creating /home/waesco704/ydlidar_ws/install/my_robot/share/ament_index/resource_index/packages
+copying resource/my_robot -> /home/waesco704/ydlidar_ws/install/my_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot
+creating /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+copying launch/bringup_slam.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+copying launch/bringup_localization.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+copying launch/bringup_navigation.launch.py -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/launch
+creating /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+copying config/slam_params_online_async.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+copying config/localization_params.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+copying config/nav2_params.yaml -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+copying config/ydlidar_slam_view.rviz -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+copying config/navigation_view.rviz -> /home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/config
+running install_egg_info
+Copying ../../build/my_robot/my_robot.egg-info to /home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_bridge script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+Installing reactive_avoidance script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+Installing serial_bridge script to /home/waesco704/ydlidar_ws/install/my_robot/lib/my_robot
+writing list of installed files to '/home/waesco704/ydlidar_ws/build/my_robot/install.log'

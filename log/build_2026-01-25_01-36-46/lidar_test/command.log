@@ -1,0 +1,4 @@
+Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_test': /usr/bin/cmake /home/waesco704/ydlidar_ws/src/lidar_test -DCMAKE_INSTALL_PREFIX=/home/waesco704/ydlidar_ws/install/lidar_test
+Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_test' returned '0': /usr/bin/cmake /home/waesco704/ydlidar_ws/src/lidar_test -DCMAKE_INSTALL_PREFIX=/home/waesco704/ydlidar_ws/install/lidar_test
+Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_test': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8
+Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_test' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8

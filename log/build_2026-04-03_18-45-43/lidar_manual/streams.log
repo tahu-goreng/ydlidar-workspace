@@ -1,0 +1,4 @@
+[0.067s] Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_manual': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_manual -- -j8 -l8
+[0.552s] [35m[1mConsolidate compiler generated dependencies of target test_manual[0m
+[0.552s] [100%] Built target test_manual
+[0.561s] Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_manual' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_manual -- -j8 -l8
