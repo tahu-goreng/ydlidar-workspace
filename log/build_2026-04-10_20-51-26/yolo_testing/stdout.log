@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing yolo_testing.egg-info/PKG-INFO
+writing dependency_links to yolo_testing.egg-info/dependency_links.txt
+writing entry points to yolo_testing.egg-info/entry_points.txt
+writing requirements to yolo_testing.egg-info/requires.txt
+writing top-level names to yolo_testing.egg-info/top_level.txt
+reading manifest file 'yolo_testing.egg-info/SOURCES.txt'
+writing manifest file 'yolo_testing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo-testing.egg-link (link to .)
+Installing yolo_publisher script to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/yolo_testing
+
+Installed /home/waesco704/ydlidar_ws/build/yolo_testing
+running symlink_data
+symbolically linking /home/waesco704/ydlidar_ws/build/yolo_testing/resource/yolo_testing -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/ament_index/resource_index/packages
+symbolically linking /home/waesco704/ydlidar_ws/build/yolo_testing/package.xml -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing

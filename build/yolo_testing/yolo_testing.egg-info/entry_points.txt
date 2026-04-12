@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_publisher = yolo_testing.yolo_publisherNode:main
