@@ -109,13 +109,19 @@ class YoloDetectorNode(Node):
             self.get_logger().debug(raw_msg.data)
 
             # ── Build Detection2D message ────────────────────────────────
+            # ── Build Detection2D message ────────────────────────────────
             det_msg = Detection2D()
             det_msg.header = det_array_msg.header
 
-            bbox         = BoundingBox2D()
-            cx           = (xmin + xmax) / 2.0
-            cy           = (ymin + ymax) / 2.0
-            bbox.center  = Pose2D(x=cx, y=cy)
+            bbox        = BoundingBox2D()
+            cx          = (xmin + xmax) / 2.0
+            cy          = (ymin + ymax) / 2.0
+
+            center      = Pose2D()   # ← construct first
+            center.x    = cx         # ← then assign fields
+            center.y    = cy
+            bbox.center = center
+
             bbox.size_x  = float(xmax - xmin)
             bbox.size_y  = float(ymax - ymin)
             det_msg.bbox = bbox
@@ -141,6 +147,7 @@ class YoloDetectorNode(Node):
 
         # Publish Detection2DArray once per frame
         self.pub_det.publish(det_array_msg)
+
 
         # --- FPS overlay ---
         t_stop = time.perf_counter()

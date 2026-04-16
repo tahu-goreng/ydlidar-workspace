@@ -1,0 +1,2 @@
+running develop
+error: [Errno 2] No such file or directory: '/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo-testing.egg-link'

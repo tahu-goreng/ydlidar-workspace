@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001172] (-) JobUnselected: {'identifier': 'lidar_manual'}
+[0.001509] (-) JobUnselected: {'identifier': 'lidar_test'}
+[0.001798] (-) JobUnselected: {'identifier': 'my_robot'}
+[0.001904] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001996] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.002108] (yolo_testing) JobQueued: {'identifier': 'yolo_testing', 'dependencies': OrderedDict()}
+[0.002199] (yolo_testing) JobStarted: {'identifier': 'yolo_testing'}
+[0.099348] (-) TimerEvent: {}
+[0.199940] (-) TimerEvent: {}
+[0.300535] (-) TimerEvent: {}
+[0.401113] (-) TimerEvent: {}
+[0.501666] (-) TimerEvent: {}
+[0.602230] (-) TimerEvent: {}
+[0.703006] (-) TimerEvent: {}
+[0.803766] (-) TimerEvent: {}
+[0.904516] (-) TimerEvent: {}
+[1.005198] (-) TimerEvent: {}
+[1.105900] (-) TimerEvent: {}
+[1.206667] (-) TimerEvent: {}
+[1.307435] (-) TimerEvent: {}
+[1.408173] (-) TimerEvent: {}
+[1.508976] (-) TimerEvent: {}
+[1.609770] (-) TimerEvent: {}
+[1.710548] (-) TimerEvent: {}
+[1.811267] (-) TimerEvent: {}
+[1.838893] (yolo_testing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/waesco704/ydlidar_ws/build/yolo_testing/build'], 'cwd': '/home/waesco704/ydlidar_ws/build/yolo_testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'waesco704', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/waesco704', 'OLDPWD': '/home/waesco704/ydlidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'COLCON_PYTHON_SETUP_PY_EDITABLE': '0', 'SYSTEMD_EXEC_PID': '2747', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install:/home/waesco704/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'waesco704', '_': '/home/waesco704/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'waesco704', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/bin:/home/waesco704/.local/bin:/opt/ros/humble/bin:/home/waesco704/.local/bin:/home/waesco704/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/waesco704/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2729,unix/ubuntu:/tmp/.ICE-unix/2729', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/96de7884_597a_44ac_a1a3_3abb161b36e0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'openssh', 'SSH_AUTH_SOCK': '/run/user/1000/openssh_agent', 'AMENT_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/waesco704/ydlidar_ws/build/yolo_testing', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/waesco704/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:/home/waesco704/ydlidar_ws/build/yolo_testing:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:/home/waesco704/ydlidar_ws/build/my_robot:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install/ydlidar_sdk:/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver'}, 'shell': False}
+[1.911449] (-) TimerEvent: {}
+[2.012188] (-) TimerEvent: {}
+[2.112961] (-) TimerEvent: {}
+[2.213735] (-) TimerEvent: {}
+[2.314493] (-) TimerEvent: {}
+[2.415218] (-) TimerEvent: {}
+[2.502415] (yolo_testing) StdoutLine: {'line': b'running develop\n'}
+[2.515320] (-) TimerEvent: {}
+[2.616045] (-) TimerEvent: {}
+[2.716844] (-) TimerEvent: {}
+[2.817625] (-) TimerEvent: {}
+[2.918425] (-) TimerEvent: {}
+[3.019208] (-) TimerEvent: {}
+[3.056844] (yolo_testing) CommandEnded: {'returncode': 0}
+[3.060362] (yolo_testing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_testing', 'build', '--build-base', '/home/waesco704/ydlidar_ws/build/yolo_testing/build', 'install', '--record', '/home/waesco704/ydlidar_ws/build/yolo_testing/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/waesco704/ydlidar_ws/src/yolo_testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'waesco704', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/waesco704', 'OLDPWD': '/home/waesco704/ydlidar_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'COLCON_PYTHON_SETUP_PY_EDITABLE': '0', 'SYSTEMD_EXEC_PID': '2747', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install:/home/waesco704/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'waesco704', '_': '/home/waesco704/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'waesco704', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/bin:/home/waesco704/.local/bin:/opt/ros/humble/bin:/home/waesco704/.local/bin:/home/waesco704/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/waesco704/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2729,unix/ubuntu:/tmp/.ICE-unix/2729', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/96de7884_597a_44ac_a1a3_3abb161b36e0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'openssh', 'SSH_AUTH_SOCK': '/run/user/1000/openssh_agent', 'AMENT_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/waesco704/ydlidar_ws/build/yolo_testing', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/waesco704/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:/home/waesco704/ydlidar_ws/build/yolo_testing:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:/home/waesco704/ydlidar_ws/build/my_robot:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/waesco704/ydlidar_ws/install/ydlidar_sdk:/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver'}, 'shell': False}
+[3.119392] (-) TimerEvent: {}
+[3.220116] (-) TimerEvent: {}
+[3.320784] (-) TimerEvent: {}
+[3.421554] (-) TimerEvent: {}
+[3.522290] (-) TimerEvent: {}
+[3.622918] (-) TimerEvent: {}
+[3.665185] (yolo_testing) StdoutLine: {'line': b'running egg_info\n'}
+[3.701457] (yolo_testing) StdoutLine: {'line': b'writing ../../build/yolo_testing/yolo_testing.egg-info/PKG-INFO\n'}
+[3.703002] (yolo_testing) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_testing/yolo_testing.egg-info/dependency_links.txt\n'}
+[3.703469] (yolo_testing) StdoutLine: {'line': b'writing entry points to ../../build/yolo_testing/yolo_testing.egg-info/entry_points.txt\n'}
+[3.704367] (yolo_testing) StdoutLine: {'line': b'writing requirements to ../../build/yolo_testing/yolo_testing.egg-info/requires.txt\n'}
+[3.704990] (yolo_testing) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_testing/yolo_testing.egg-info/top_level.txt\n'}
+[3.723108] (-) TimerEvent: {}
+[3.782897] (yolo_testing) StdoutLine: {'line': b"reading manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'\n"}
+[3.784251] (yolo_testing) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.786484] (yolo_testing) StdoutLine: {'line': b"writing manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'\n"}
+[3.787032] (yolo_testing) StdoutLine: {'line': b'running build\n'}
+[3.787290] (yolo_testing) StdoutLine: {'line': b'running build_py\n'}
+[3.787560] (yolo_testing) StdoutLine: {'line': b'copying yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing\n'}
+[3.787975] (yolo_testing) StdoutLine: {'line': b'copying yolo_testing/tes_bikin_publisher.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing\n'}
+[3.788430] (yolo_testing) StdoutLine: {'line': b'copying yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing\n'}
+[3.789263] (yolo_testing) StdoutLine: {'line': b'running install\n'}
+[3.798472] (yolo_testing) StdoutLine: {'line': b'running install_lib\n'}
+[3.823251] (-) TimerEvent: {}
+[3.836563] (yolo_testing) StdoutLine: {'line': b'creating /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing\n'}
+[3.837378] (yolo_testing) StdoutLine: {'line': b'copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing\n'}
+[3.837809] (yolo_testing) StdoutLine: {'line': b'copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/tes_bikin_publisher.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing\n'}
+[3.838109] (yolo_testing) StdoutLine: {'line': b'copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing\n'}
+[3.838697] (yolo_testing) StdoutLine: {'line': b'byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/__init__.py to __init__.cpython-310.pyc\n'}
+[3.839332] (yolo_testing) StdoutLine: {'line': b'byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/tes_bikin_publisher.py to tes_bikin_publisher.cpython-310.pyc\n'}
+[3.839819] (yolo_testing) StdoutLine: {'line': b'byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/yolo_publisherNode.py to yolo_publisherNode.cpython-310.pyc\n'}
+[3.842947] (yolo_testing) StdoutLine: {'line': b'running install_data\n'}
+[3.843731] (yolo_testing) StdoutLine: {'line': b'copying resource/yolo_testing -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/ament_index/resource_index/packages\n'}
+[3.844353] (yolo_testing) StdoutLine: {'line': b'copying package.xml -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing\n'}
+[3.844869] (yolo_testing) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.884718] (yolo_testing) StdoutLine: {'line': b'Copying ../../build/yolo_testing/yolo_testing.egg-info to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing-0.0.0-py3.10.egg-info\n'}
+[3.887016] (yolo_testing) StdoutLine: {'line': b'running install_scripts\n'}
+[3.923427] (-) TimerEvent: {}
+[4.024089] (-) TimerEvent: {}
+[4.124886] (-) TimerEvent: {}
+[4.182752] (yolo_testing) StdoutLine: {'line': b'Installing yolo_publisher script to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/yolo_testing\n'}
+[4.183870] (yolo_testing) StdoutLine: {'line': b"writing list of installed files to '/home/waesco704/ydlidar_ws/build/yolo_testing/install.log'\n"}
+[4.225052] (-) TimerEvent: {}
+[4.267230] (yolo_testing) CommandEnded: {'returncode': 0}
+[4.302627] (yolo_testing) JobEnded: {'identifier': 'yolo_testing', 'rc': 0}
+[4.305029] (-) EventReactorShutdown: {}

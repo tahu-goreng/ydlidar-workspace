@@ -1,0 +1,36 @@
+[1.840s] Invoking command in '/home/waesco704/ydlidar_ws/build/yolo_testing': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/waesco704/ydlidar_ws/build/yolo_testing/build
+[2.501s] running develop
+[3.055s] Invoked command in '/home/waesco704/ydlidar_ws/build/yolo_testing' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/waesco704/ydlidar_ws/build/yolo_testing/build
+[3.061s] Invoking command in '/home/waesco704/ydlidar_ws/src/yolo_testing': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data --force
+[3.663s] running egg_info
+[3.700s] writing ../../build/yolo_testing/yolo_testing.egg-info/PKG-INFO
+[3.701s] writing dependency_links to ../../build/yolo_testing/yolo_testing.egg-info/dependency_links.txt
+[3.701s] writing entry points to ../../build/yolo_testing/yolo_testing.egg-info/entry_points.txt
+[3.703s] writing requirements to ../../build/yolo_testing/yolo_testing.egg-info/requires.txt
+[3.703s] writing top-level names to ../../build/yolo_testing/yolo_testing.egg-info/top_level.txt
+[3.781s] reading manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'
+[3.782s] adding license file 'LICENSE'
+[3.785s] writing manifest file '../../build/yolo_testing/yolo_testing.egg-info/SOURCES.txt'
+[3.785s] running build
+[3.785s] running build_py
+[3.785s] copying yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.786s] copying yolo_testing/tes_bikin_publisher.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.786s] copying yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing
+[3.787s] running install
+[3.797s] running install_lib
+[3.835s] creating /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.835s] copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/__init__.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.836s] copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/tes_bikin_publisher.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.836s] copying /home/waesco704/ydlidar_ws/build/yolo_testing/build/lib/yolo_testing/yolo_publisherNode.py -> /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing
+[3.837s] byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/__init__.py to __init__.cpython-310.pyc
+[3.837s] byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/tes_bikin_publisher.py to tes_bikin_publisher.cpython-310.pyc
+[3.838s] byte-compiling /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing/yolo_publisherNode.py to yolo_publisherNode.cpython-310.pyc
+[3.841s] running install_data
+[3.842s] copying resource/yolo_testing -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/ament_index/resource_index/packages
+[3.842s] copying package.xml -> /home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing
+[3.843s] running install_egg_info
+[3.883s] Copying ../../build/yolo_testing/yolo_testing.egg-info to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages/yolo_testing-0.0.0-py3.10.egg-info
+[3.885s] running install_scripts
+[4.181s] Installing yolo_publisher script to /home/waesco704/ydlidar_ws/install/yolo_testing/lib/yolo_testing
+[4.182s] writing list of installed files to '/home/waesco704/ydlidar_ws/build/yolo_testing/install.log'
+[4.266s] Invoked command in '/home/waesco704/ydlidar_ws/src/yolo_testing' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data --force

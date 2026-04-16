@@ -1,1 +1,147 @@
-/home/waesco704/ydlidar_ws/build/my_robot/config/nav2_params.yaml
+# ============================================================
+# NAV2 PARAMETERS (SLAM TOOLBOX LOCALIZATION)
+# ============================================================
+
+# ============================
+# MAP SERVER
+# ============================
+map_server:
+  ros__parameters:
+    use_sim_time: false
+    yaml_filename: /home/waesco704/maps/final_map.yaml
+
+# ============================
+# PLANNER
+# ============================
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 1.0
+    planner_plugins: ["GridBased"]
+
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      use_astar: true
+      allow_unknown: true
+
+# ============================
+# CONTROLLER (DWB)
+# ============================
+controller_server:
+  ros__parameters:
+    controller_frequency: 10.0
+    controller_plugins: ["FollowPath"]
+
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+
+      # Velocity limits (HARUS konsisten dengan ESP32)
+      min_vel_x: 0.0
+      max_vel_x: 0.25
+      min_vel_y: 0.0
+      max_vel_y: 0.0
+      max_vel_theta: 1.0
+
+      min_speed_xy: 0.0
+      max_speed_xy: 0.25
+      min_speed_theta: 0.0
+      max_speed_theta: 1.0
+
+      # Sampling
+      vx_samples: 10
+      vy_samples: 0
+      vtheta_samples: 20
+      sim_time: 2.0
+
+      # Acceleration limits
+      acc_lim_x: 2.5
+      acc_lim_theta: 3.2
+
+      # Goal tolerances
+      xy_goal_tolerance: 0.10
+      yaw_goal_tolerance: 0.15
+      trans_stopped_velocity: 0.01
+
+# ============================
+# BEHAVIOR TREE NAVIGATOR
+# ============================
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    default_bt_xml_filename: "navigate_w_replanning_and_recovery.xml"
+
+# ============================
+# WAYPOINT FOLLOWER
+# ============================
+waypoint_follower:
+  ros__parameters:
+    loop_rate: 20
+    stop_on_failure: false
+
+# ============================
+# GLOBAL COSTMAP
+# ============================
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      global_frame: map
+      robot_base_frame: base_link
+      use_sim_time: false
+
+      update_frequency: 2.0
+      publish_frequency: 2.0
+      resolution: 0.05
+      track_unknown_space: true
+
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.55
+        cost_scaling_factor: 3.0
+
+# ============================
+# LOCAL COSTMAP
+# ============================
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      global_frame: odom
+      robot_base_frame: base_link
+      use_sim_time: false
+
+      update_frequency: 5.0
+      publish_frequency: 5.0
+      resolution: 0.05
+
+      rolling_window: true
+      width: 3.0
+      height: 3.0
+
+      plugins: ["obstacle_layer", "inflation_layer"]
+
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.40
+        cost_scaling_factor: 3.0
+

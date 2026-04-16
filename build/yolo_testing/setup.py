@@ -1,1 +1,0 @@
-/home/waesco704/ydlidar_ws/src/yolo_testing/setup.py

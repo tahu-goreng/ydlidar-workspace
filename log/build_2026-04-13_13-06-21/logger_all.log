@@ -1,0 +1,378 @@
+[0.292s] DEBUG:colcon:Command line arguments: ['/home/waesco704/.local/bin/colcon', 'build']
+[0.292s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa2ec9a20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa2ec9420>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa2ec9420>>)
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/waesco704/ydlidar_ws'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_manual) by extension 'python'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_manual' with type 'cmake' and name 'lidar_manual'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_test) by extension 'python'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_test' with type 'cmake' and name 'lidar_test'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot' with type 'ros.ament_python' and name 'my_robot'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_testing) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_testing' with type 'ros.ament_python' and name 'yolo_testing'
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_target' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'lidar_manual' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_manual' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/lidar_manual', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/lidar_manual', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/lidar_manual', 'symlink_install': False, 'test_result_base': None}
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_target' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'lidar_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.541s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/lidar_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/lidar_test', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/lidar_test', 'symlink_install': False, 'test_result_base': None}
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.543s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/my_robot', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/my_robot', 'symlink_install': False, 'test_result_base': None}
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.544s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_target' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'yolo_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.546s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/waesco704/ydlidar_ws/build/yolo_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/waesco704/ydlidar_ws/install/yolo_testing', 'merge_install': False, 'path': '/home/waesco704/ydlidar_ws/src/yolo_testing', 'symlink_install': False, 'test_result_base': None}
+[0.547s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.550s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waesco704/ydlidar_ws/src/lidar_manual'
+[0.555s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waesco704/ydlidar_ws/src/lidar_test'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.575s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/waesco704/ydlidar_ws/src/my_robot' with build type 'ament_python'
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'ament_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/waesco704/ydlidar_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.590s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waesco704/ydlidar_ws/src/ydlidar_ros2_driver'
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/waesco704/ydlidar_ws/src/YDLidar-SDK'
+[0.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/waesco704/ydlidar_ws/src/yolo_testing' with build type 'ament_python'
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_testing', 'ament_prefix_path')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/ament_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/ament_prefix_path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/ament_prefix_path.sh'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_manual': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_manual -- -j8 -l8
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/lidar_test': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8
+[1.228s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/waesco704/ydlidar_ws/src/my_robot'
+[1.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[1.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_sdk -- -j8 -l8
+[1.738s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/waesco704/ydlidar_ws/src/yolo_testing'
+[1.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_test' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_test -- -j8 -l8
+[1.756s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'lidar_test' because it has no 'install' target
+[1.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_test)
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test' for CMake module files
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test' for CMake config files
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test/bin'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test/lib/pkgconfig/lidar_test.pc'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test/lib/python3.10/site-packages'
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_test/bin'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_test/share/lidar_test/package.ps1'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/lidar_test/share/lidar_test/package.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_test/share/lidar_test/package.sh'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_test/share/lidar_test/package.bash'
+[1.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_test/share/lidar_test/package.zsh'
+[1.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/lidar_test/share/colcon-core/packages/lidar_test)
+[1.787s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'lidar_manual' because it has no 'install' target
+[1.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/lidar_manual' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/lidar_manual -- -j8 -l8
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_manual)
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual' for CMake module files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual' for CMake config files
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual/bin'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual/lib/pkgconfig/lidar_manual.pc'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual/lib/python3.10/site-packages'
+[1.792s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/lidar_manual/bin'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_manual/share/lidar_manual/package.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/lidar_manual/share/lidar_manual/package.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_manual/share/lidar_manual/package.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_manual/share/lidar_manual/package.bash'
+[1.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/lidar_manual/share/lidar_manual/package.zsh'
+[1.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/lidar_manual/share/colcon-core/packages/lidar_manual)
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver -- -j8 -l8
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_sdk -- -j8 -l8
+[1.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_sdk
+[1.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk' for CMake module files
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk' for CMake config files
+[1.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/lib'
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/bin'
+[1.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[1.889s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/lib/python3.10/site-packages'
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/bin'
+[1.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[1.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[1.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_sdk
+[1.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[1.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waesco704/ydlidar_ws/install/yolo_testing:/home/waesco704/ydlidar_ws/install/my_robot:/opt/ros/humble /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_ros2_driver
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.920s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[1.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[1.930s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver' for CMake module files
+[1.931s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver' for CMake config files
+[1.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/bin'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[1.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/build/my_robot': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/waesco704/ydlidar_ws/build/my_robot/build
+[3.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/src/yolo_testing': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing' for CMake module files
+[4.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/src/yolo_testing' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/yolo_testing/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_testing build --build-base /home/waesco704/ydlidar_ws/build/yolo_testing/build install --record /home/waesco704/ydlidar_ws/build/yolo_testing/install.log --single-version-externally-managed install_data
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing' for CMake config files
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing/lib'
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing/bin'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing/lib/pkgconfig/yolo_testing.pc'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing/lib/python3.10/site-packages'
+[4.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_testing', 'pythonpath')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/pythonpath.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/pythonpath.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/hook/pythonpath.sh'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/yolo_testing/bin'
+[4.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_testing)
+[4.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/package.ps1'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/package.dsv'
+[4.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/package.sh'
+[4.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/package.bash'
+[4.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/yolo_testing/share/yolo_testing/package.zsh'
+[4.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/yolo_testing/share/colcon-core/packages/yolo_testing)
+[4.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/build/my_robot' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/waesco704/ydlidar_ws/build/my_robot/build
+[4.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/waesco704/ydlidar_ws/src/my_robot': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/waesco704/ydlidar_ws/build/my_robot/build install --record /home/waesco704/ydlidar_ws/build/my_robot/install.log --single-version-externally-managed install_data --force
+[5.564s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot' for CMake module files
+[5.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/waesco704/ydlidar_ws/src/my_robot' returned '0': PYTHONPATH=/home/waesco704/ydlidar_ws/build/my_robot/prefix_override:/home/waesco704/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/waesco704/ydlidar_ws/build/my_robot/build install --record /home/waesco704/ydlidar_ws/build/my_robot/install.log --single-version-externally-managed install_data --force
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot' for CMake config files
+[5.569s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot/lib'
+[5.569s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot/bin'
+[5.570s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[5.571s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot/lib/python3.10/site-packages'
+[5.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath')
+[5.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/pythonpath.ps1'
+[5.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/pythonpath.dsv'
+[5.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/hook/pythonpath.sh'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/waesco704/ydlidar_ws/install/my_robot/bin'
+[5.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[5.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/package.ps1'
+[5.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/package.dsv'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/package.sh'
+[5.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/package.bash'
+[5.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/waesco704/ydlidar_ws/install/my_robot/share/my_robot/package.zsh'
+[5.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/waesco704/ydlidar_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[5.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.596s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.618s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.668s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waesco704/ydlidar_ws/install/local_setup.ps1'
+[5.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/waesco704/ydlidar_ws/install/_local_setup_util_ps1.py'
+[5.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waesco704/ydlidar_ws/install/setup.ps1'
+[5.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waesco704/ydlidar_ws/install/local_setup.sh'
+[5.686s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/waesco704/ydlidar_ws/install/_local_setup_util_sh.py'
+[5.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waesco704/ydlidar_ws/install/setup.sh'
+[5.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waesco704/ydlidar_ws/install/local_setup.bash'
+[5.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waesco704/ydlidar_ws/install/setup.bash'
+[5.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/waesco704/ydlidar_ws/install/local_setup.zsh'
+[5.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/waesco704/ydlidar_ws/install/setup.zsh'

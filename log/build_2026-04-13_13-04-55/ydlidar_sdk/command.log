@@ -1,0 +1,4 @@
+Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_sdk -- -j8 -l8
+Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/waesco704/ydlidar_ws/build/ydlidar_sdk -- -j8 -l8
+Invoking command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_sdk
+Invoked command in '/home/waesco704/ydlidar_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/waesco704/ydlidar_ws/build/ydlidar_sdk
